@@ -9,6 +9,6 @@ The preprocessed version is stored at
 /home/mcb/users/dlim63/conservation/data/seqDictPad_chr1.pkl
 
 You can load it using pandas 
-import pandas as pd
-chrom = 1
-alignment = pd.read_pickle(f'/home/mcb/users/dlim63/conservation/data/seqDictPad_chr{chrom}.pkl')
+* import pandas as pd
+* chrom = 1
+* alignment = pd.read_pickle(f'/home/mcb/users/dlim63/conservation/data/seqDictPad_chr{chrom}.pkl')
