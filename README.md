@@ -1,4 +1,4 @@
-```markdown
+
 # Evolution Data: Preprocessed Orthologous Sequence Alignment
 
 This repository contains preprocessed mammalian sequence alignment data with ancestral reconstructions for efficient access in evolutionary studies. The original MAF files have been optimized to significantly reduce sequence extraction time from days/months to minutes.
@@ -30,6 +30,7 @@ alignment = pd.read_pickle(f'/home/mcb/users/dlim63/conservation/data/seqDictPad
 human_seq = alignment['hg38']
 chimp_seq = alignment['panTro4']
 ```
+
 
 ## Data Structure
 The alignment dictionary contains orthologous sequences with:
